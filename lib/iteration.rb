@@ -32,7 +32,7 @@ def total_even_pairs(src)
     end 
     row_index += 1 
   end
-  new_array
+  total 
   
   
   # src will be an array of [ [number1, number2], ... [numberN, numberM] ]
