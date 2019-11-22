@@ -16,7 +16,7 @@ def find_greater_pair(src)
   row_index = 0 
   while row_index < src.count do 
     new_src = src[row_index].sort
-    new_array << new_src[0]
+    new_array << new_src[-1]
     row_index += 1 
   end 
   new_array
